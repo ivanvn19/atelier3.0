@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./iconos e imagenes/fotos/LOGOS E ICONOS/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="Css/estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,8 +13,8 @@
     <title>Atelier 3.0</title>
 </head>
 <body>
-    <div class="contenedor">
-        <Header class="header">
+    <div class=" contenedor">
+        <Header class="wow header animate__animated animate__rubberBand">
         <img src="./iconos e imagenes/fotos/LOGOS E ICONOS/ATELIER 3.0 LOGO2.png" alt="logo">
         <nav class="nav">
             <ul>
@@ -41,7 +42,7 @@
                 colección destacada
             </em>
         </h1>
-        <div class="colecciondestacada">
+        <div class="wow colecciondestacada animate__animated animate__zoomIn" >
             <a href="./html/colecciondestacada.html" class="cd01">
                 <img src="./fotos/bus/001.jpg" alt="">
             </a>
@@ -59,7 +60,7 @@
                     colecciones
                 </em>
             </h2>
-            <div class="colecciones">
+            <div class="wow colecciones animate__animated animate__fadeInUpBig">
                 <a href="./html/Coleccion ref.html" class="colecciones01">
                 <img src="./fotos/ref/relfejos portada.jpg" alt="">
                 </a>
@@ -105,5 +106,10 @@
         
         </footer>
 </div>
+
+<script src="js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
 </body>
 </html>

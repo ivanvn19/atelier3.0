@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=m, initial-scale=1.0">
     <link rel="shortcut icon" href="../fotos/LOGOS E ICONOS/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="../Css/estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +13,7 @@
     <title>Colección reflejos de acero</title>
 </head>
 <body class="contenedor">
-    <Header class="header">
+    <Header class="wow header animate__animated animate__rubberBand">
         <img src="../iconos e imagenes/fotos/LOGOS E ICONOS/ATELIER 3.0 LOGO2.png" alt="logo">
         <nav class="nav">
             <ul>
@@ -43,7 +44,7 @@
                 by Lili Okretich 📸
             </h4>
         </section>
-        <section class="refcolection">
+        <section class="wow refcolection animate__animated animate__zoomIn">
             
                 <img src="../fotos/ref/001.jpg" alt="">
             
@@ -57,7 +58,7 @@
             
         </section>
     </main>
-    <section class="aside">
+    <section class=" wow aside animate__animated animate__fadeInUpBig">
         <div class="okre">
             <h2>
                 Liliana Okretich
@@ -88,6 +89,12 @@
                 </em>
             </h6>
     </footer>
+   
     
+
+    <script src="js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
 </body>
 </html>
